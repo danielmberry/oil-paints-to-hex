@@ -1,8 +1,17 @@
 # Finding the Hex and RGB values for Williamsburg Oil Paints
 
 ## Introduction
+The idea for this project came from a conversation I had with my cousin, who was working on a design project and wanted to get my input on colors to use for a user interface. As a painter, my mind works more in oil paint colors than it does in hex or RGB colors. 
+
+Following our conversation, I decided to create a program that would gather all of the oil paint swatch images from the website of my favorite oil paint company, [Williamsburg Oils](https://www.williamsburgoils.com), and process each image, finding the median hex and RGB values within the image using computer vision and KMeans clustering. 
+
+The end result is the table at the end of this README, where I've listed the hex color and corresponding RGB color next to the original image pulled from Williamsburg Oils' website. 
+
+Please note that the resulting hex/RGB color resulting from the program is simply the median value derived from the KMeans clustering program, and is unlikely to represent an exact match to the color due to the transparent/opaque properties of oil paints. 
 
 ## Method
+
+
 
 ## Color List
 |Color Name|Hex color|RGB Color|Paint swatch|
